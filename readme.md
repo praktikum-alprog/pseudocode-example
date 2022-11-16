@@ -78,12 +78,13 @@ int main() {
 char hasil(int nilai) {  
     // DECLARE nilai_huruf
     char nilai_huruf; 
-    // IF nilai == 100 THEN PRINT "A"
+
+    // IF nilai == 100 THEN nilai_huruf =  'A'
     if( nilai == 100 ) { 
         nilai_huruf = 'A';
     } 
 
-    // IF nilai == 100 THEN PRINT "A"
+    // IF nilai < 100 AND nilai >= 90 THEN nilai_huruf = 'B'
     if ( nilai < 100 && nilai >= 90) { 
         nilai_huruf = 'B';
     }
