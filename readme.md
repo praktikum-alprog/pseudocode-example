@@ -1,10 +1,10 @@
-**Algoritma**: char hasil(int nilai)
+**Algoritma**: **`char hasil(int nilai)`**
 
 Algoritma ini adalah untuk menghitung nilai_akhir dari sebuah input yang nantiya akan dievaluasi untuk nilai huruf note: **(Minimal 2 Kalimat, 3 Baris)**
 
 **Deklarasi**: 
 
-`char nilai_huruf`
+`character: nilai_huruf`
 
 **Description**:
 
@@ -13,11 +13,19 @@ TAKE PARAMS nilai AS INPUT TO FUNCTION
 
 DECLARE nilai_huruf
 
-IF nilai == 100 THEN PRINT "A"
-IF nilai < 100 AND nilai >= 90 THEN PRINT "B"
+IF nilai == 100 THEN 
+    nilai_huruf = 'A'
+IF nilai < 100 AND nilai >= 90 THEN 
+    nilai_huruf = 'B'
 
 RETURN nilai_huruf
 ```
+
+Kode Program diatas menjadikan sebuah implementasi dari perancangan fungsi `char hasil` sehingga dapat dikelarasikan `nilai_huruf` untuk menyimpan nilai untuk sesuai nilai huruf lalu setelah itu nilai_huruf akan dikembalikan. **(Minimal 2 Kalimat, 3 Baris)**  
+
+___
+
+DIBAWAH INI hanyalah contoh implementasi dari penggunaan pseudocode **tidak perlu dimasukan ke laporan/penda tapi diimplementasikan di kode program dan harus sesuai dengan pseudocode yang dirancang**
 
 Dari pseudocode diatas maka kita dapat membuat sebuah function `char hasil(int nilai)` seperti dibawah ini.
 
