@@ -1,12 +1,12 @@
-algoritma: char hasil(int nilai)
+**Algoritma**: char hasil(int nilai)
 
 Algoritma ini adalah untuk menghitung nilai_akhir dari sebuah input yang nantiya akan dievaluasi untuk nilai huruf note: **(Minimal 2 Kalimat, 3 Baris)**
 
-deklarasi: 
+**Deklarasi**: 
 
 `char nilai_huruf`
 
-description:
+**Description**:
 
 ```txt
 TAKE PARAMS nilai AS INPUT TO FUNCTION
