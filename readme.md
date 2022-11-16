@@ -65,6 +65,24 @@ int main() {
     printf("%c\n", hasil_huruf); 
     return 0; 
 }
+
+// TAKE PARAMS nilai AS INPUT TO FUNCTION
+char hasil(int nilai) {  
+    // DECLARE nilai_huruf
+    char nilai_huruf; 
+    // IF nilai == 100 THEN PRINT "A"
+    if( nilai == 100 ) { 
+        nilai_huruf = 'A';
+    } 
+
+    // IF nilai == 100 THEN PRINT "A"
+    if ( nilai < 100 && nilai >= 90) { 
+        nilai_huruf = 'B';
+    }
+
+    // RETURN nilai_huruf
+    return nilai_huruf; // char
+}
 ```
 
 output
